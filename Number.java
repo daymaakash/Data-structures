@@ -26,5 +26,17 @@ class Number
 			}
 		}
 		System.out.print("left reverse array :"+a[i]);
+				for(int k=1;k<=3;k++)
+		{
+			for(i=0;i<=n;i++)
+			{
+				a[n-1] = a[i] ;
+				a[i] = a[i+1];
+				
+				if (i ==n)
+					break ;
+			}
+		}
+		System.out.print("left reverse array :"+a[i]);
 	}
 }
